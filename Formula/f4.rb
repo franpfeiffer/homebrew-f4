@@ -7,18 +7,18 @@ class F4 < Formula
   on_macos do
     on_arm do
       url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-aarch64-apple-darwin.tar.gz"
-      sha256 "AARCH64_APPLE_SHA256"
+      sha256 "e7cbe6a500a409c3e13f016e223d1cdd161d0ccd73c4b7e92c4b3f4e38d943dc"
     end
     on_intel do
       url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-x86_64-apple-darwin.tar.gz"
-      sha256 "X86_64_APPLE_SHA256"
+      sha256 "080c99a0dcf252aa6bf9ab1645fa9f02dab8461eff6f7879b8134558b77863a9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "X86_64_LINUX_SHA256"
+      sha256 "3210eb3c567d874b412930582af36052afd10d24bec236d0bcace3c19e466d8e"
     end
   end
 
