@@ -1,5 +1,5 @@
 cask "f4" do
-  version "1.0.0"
+  version "1.1.0"
   sha256 arm:   "e7cbe6a500a409c3e13f016e223d1cdd161d0ccd73c4b7e92c4b3f4e38d943dc",
          intel: "080c99a0dcf252aa6bf9ab1645fa9f02dab8461eff6f7879b8134558b77863a9"
 

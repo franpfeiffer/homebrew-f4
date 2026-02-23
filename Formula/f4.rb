@@ -1,7 +1,7 @@
 class F4 < Formula
   desc "Simple text editor with Vim motions"
   homepage "https://github.com/franpfeiffer/F4"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
