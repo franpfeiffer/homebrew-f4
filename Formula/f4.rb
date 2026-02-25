@@ -1,13 +1,13 @@
 class F4 < Formula
   desc "Simple text editor with Vim motions"
   homepage "https://github.com/franpfeiffer/F4"
-  version "1.1.4"
+  version "1.1.5"
   license "MIT"
 
   on_linux do
     on_intel do
       url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eb7a1e4d478d950761845cd921bc1417b65e0e591abde10429f23f8cf8f9a85e"
+      sha256 "722acdba585d1fe1d9f0d7eb711d19a0095a05b8ab281f0977b8a90105c00dda"
     end
   end
 

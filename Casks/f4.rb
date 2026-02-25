@@ -1,12 +1,12 @@
 cask "f4" do
-  version "1.1.4"
+  version "1.1.5"
   on_arm do
     url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-aarch64-apple-darwin.dmg"
-    sha256 "fcac7e254e2afeb743bd66a8014ebe1f6c0373da2e96945a57871cd666fd01b9"
+    sha256 "1e18352728e23ce6a98da64a79f50282fee58bd701079e6e5e6bfd1664873fbf"
   end
   on_intel do
     url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-x86_64-apple-darwin.dmg"
-    sha256 "79940d98552b929c9cde5747e86d843f0246192d05de05dc4848963fbb8de1ef"
+    sha256 "eaaca1c73e8ab9943551718ef39adadf6dc541b6f34137ebd9e219f679a80a47"
   end
   name "F4"
   desc "Simple text editor with Vim motions"
