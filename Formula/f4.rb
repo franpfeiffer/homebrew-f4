@@ -18,7 +18,7 @@ class F4 < Formula
   on_linux do
     on_intel do
       url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3210eb3c567d874b412930582af36052afd10d24bec236d0bcace3c19e466d8e"
+      sha256 "51b5e4cdee71c139a6efc91fd38a0d9d48d39df284eab65df7dc1c896bb43088"
     end
   end
 
