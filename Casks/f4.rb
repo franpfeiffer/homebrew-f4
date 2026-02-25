@@ -8,6 +8,8 @@ cask "f4" do
   desc "Simple text editor with Vim motions"
   homepage "https://github.com/franpfeiffer/F4"
 
+  depends_on macos: ">= :ventura"
+
   app "F4.app"
 
   zap trash: [
