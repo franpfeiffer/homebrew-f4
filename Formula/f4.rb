@@ -4,17 +4,6 @@ class F4 < Formula
   version "1.1.1"
   license "MIT"
 
-  on_macos do
-    on_arm do
-      url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-aarch64-apple-darwin.tar.gz"
-      sha256 "836ed857631e5f4bfe062361158a1f1662d14f78b943c43088cfbdee48262687"
-    end
-    on_intel do
-      url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-x86_64-apple-darwin.tar.gz"
-      sha256 "efa27fac87bf37d7b20eaf2651f163905e0782a1f11c10b450d1405eb1cc13ea"
-    end
-  end
-
   on_linux do
     on_intel do
       url "https://github.com/franpfeiffer/F4/releases/download/v#{version}/f4-x86_64-unknown-linux-gnu.tar.gz"
