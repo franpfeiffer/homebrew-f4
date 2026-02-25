@@ -12,9 +12,9 @@ class F4 < Formula
   end
 
   def install
-    bin.install "usr/bin/f4"
-    (share/"applications").install "usr/share/applications/f4.desktop"
-    (share/"icons/hicolor/256x256/apps").install "usr/share/icons/hicolor/256x256/apps/f4.png"
+    bin.install "./usr/bin/f4" => "f4"
+    (share/"applications").install "./usr/share/applications/f4.desktop"
+    (share/"icons/hicolor/256x256/apps").install "./usr/share/icons/hicolor/256x256/apps/f4.png"
   end
 
   test do
